@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { HoverBorderGradient } from "./ui/hover-border-gradients";
 
 export default function Header() {
     return (
@@ -6,6 +7,13 @@ export default function Header() {
             <div className="">
                 {" "}
                 <img className="w-12" src="/sg-logo.png" alt="" />
+            </div>
+
+            <div className="flex gap-4">
+                <div>Shivam</div>
+                <div>Shivam</div>
+                <div>Shivam</div>
+                <div>Shivam</div>
             </div>
             <div className="flex sm:gap-4 items-center gap-2">
                 <img
@@ -35,6 +43,11 @@ export default function Header() {
                     src="/github2.png"
                     alt=""
                     className="sm:max-w-6 max-w-4 "
+                />
+                <HoverBorderGradient
+                    clockwise={true}
+                    content="shivam"
+                    children={"shivam"}
                 />
             </div>
         </div>
