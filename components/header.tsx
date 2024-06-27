@@ -10,10 +10,10 @@ export default function Header() {
             </div>
 
             <div className="flex gap-4">
-                <div>Shivam</div>
-                <div>Shivam</div>
-                <div>Shivam</div>
-                <div>Shivam</div>
+                <div>About Me</div>
+                <div>Projects</div>
+                <div>Education</div>
+                <div>Current Role</div>
             </div>
             <div className="flex sm:gap-4 items-center gap-2">
                 <img
