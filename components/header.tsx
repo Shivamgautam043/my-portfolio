@@ -13,7 +13,7 @@ export default function Header() {
                 <div>About Me</div>
                 <div>Projects</div>
                 <div>Education</div>
-                <div>Current Role</div>
+                <div>Experience</div>
             </div>
             <div className="flex sm:gap-4 items-center gap-2">
                 <img
