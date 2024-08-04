@@ -1,9 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-      domains: ['aceternity.com'],
+        domains: ["aceternity.com", "storage.googleapis.com"],
     },
-  };
-  
-  export default nextConfig;
-  
+};
+
+export default nextConfig;

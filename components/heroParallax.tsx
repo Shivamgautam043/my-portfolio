@@ -10,7 +10,7 @@ export const products = [
         title: "Moonbeam",
         link: "https://gomoonbeam.com",
         thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+            "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_SS.width-1300.jpg",
     },
     {
         title: "Cursor",
